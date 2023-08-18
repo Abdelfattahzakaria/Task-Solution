@@ -1,0 +1,23 @@
+<?php
+return [
+  "title" => "قائمة باقسام صفوف المراحل المختلفة",
+  "section_name"=>"اسم القسم",
+  "classroom_name"=>"اسم الصف",
+  "status"=>"حالة القسم",
+  "processes"=>"العمليات",
+  "edit"=>"تعديل",
+  "delete"=>"ازالة",
+  "add_section"=>"اضافة قسم",
+  "section_ar_name"=>"اسم القسم بالعربية", 
+  "section_en_name"=>"اسم القسم بالانجليزية",
+  "section_grade_name"=>"اسم المرحلة", 
+  "section_select_grade_name"=>"اختر المرحلة",   
+  "add_section_error"=>"القسم المدخل موجود مسبقا",   
+  "Status_Section_AC"=>"نشط",
+  "Status_Section_No"=>"غير نشط",
+  "edit_Section"=>"تعديل قسم",
+  "Status"=>"الحالة",
+  "delete_Section"=>"ازالة قسم", 
+  "Warning_Section"=>"هل انت متاكد من عملية ازالة القسم",
+  "Name_Teacher"=>"اسم المعلم", 
+];   

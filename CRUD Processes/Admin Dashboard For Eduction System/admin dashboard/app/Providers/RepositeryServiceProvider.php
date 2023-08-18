@@ -1,0 +1,78 @@
+<?php
+namespace App\Providers;
+use Illuminate\Support\ServiceProvider;
+class RepositeryServiceProvider extends ServiceProvider
+{
+    public function register(): void
+    {
+      $this->app->bind(   
+        "App\Repositery\TeacherRepositeryInterface",  
+        "App\Repositery\TeacherRepositery",    
+      ); 
+      $this->app->bind(
+        "App\Repositery\StudentRepositeryInterface",  
+        "App\Repositery\StudentRepositery", 
+      );
+      $this->app->bind(
+        "App\Repositery\StudentPromotionsInterface",  
+        "App\Repositery\StudentPromotionsRepositery", 
+      );  
+      $this->app->bind(
+        "App\Repositery\GraduateRepositeryInterface",  
+        "App\Repositery\GratuateRepositery",  
+      );
+      $this->app->bind(
+        "App\Repositery\FeesRepositeryInterface",  
+        "App\Repositery\FeesRepositery",  
+      ); 
+      $this->app->bind(
+        "App\Repositery\FeesInvoicesRepositeryInterface",  
+        "App\Repositery\FeesInvoicesRepositery",   
+      );
+      $this->app->bind(
+        "App\Repositery\RecieptStudentRepositeryInterface",   
+        "App\Repositery\RecieptStudentRepositery",   
+      );
+      $this->app->bind(
+        "App\Repositery\ProcessingFeesRepositeryInterface",   
+        "App\Repositery\ProcessingFeesRepositery",   
+      );
+      $this->app->bind(
+        "App\Repositery\PaymentStudentRepositeryInterface",   
+        "App\Repositery\PaymentStudentRepositery",   
+      );
+      $this->app->bind(
+        "App\Repositery\AttendanceRepositeryInterface",   
+        "App\Repositery\AttendanceRepositery",   
+      ); 
+      $this->app->bind(
+        "App\Repositery\SubjectsRepositeryInterface",   
+        "App\Repositery\SubjectsRepositery",   
+      ); 
+      $this->app->bind(
+        "App\Repositery\ExamsRepositeryInterface",   
+        "App\Repositery\ExamsRepositery",   
+      );
+      $this->app->bind(
+        "App\Repositery\QuizRepositeryInterface",   
+        "App\Repositery\QuizRepositery",   
+      );
+      $this->app->bind(
+        "App\Repositery\QuestionsRepositeryInterface",   
+        "App\Repositery\QuestionsRepositery",   
+      );  
+      $this->app->bind(
+        "App\Repositery\LibraryRepositeryInterface",   
+        "App\Repositery\LibraryRepositery",   
+      );
+      $this->app->bind(
+        "App\Repositery\SettingRepositeryInterface",   
+        "App\Repositery\SettingRepositery",   
+      );  
+    }  
+    public function boot(): void
+    {
+        //
+    } 
+}
+  

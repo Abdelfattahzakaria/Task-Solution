@@ -1,0 +1,23 @@
+<?php
+return [
+  "title"=>"list of sections for different classrooms of available grades", 
+  "section_name"=>"section name",
+  "classroom_name"=>"classroom name",
+  "status"=>"section status state",
+  "processes"=>"processes",
+  "edit"=>"edit", 
+  "delete"=>"delete",
+  "add_section"=>"add section",
+  "section_ar_name"=>"section name in arabic", 
+  "section_en_name"=>"section name in english",
+  "section_grade_name"=>"grade name", 
+  "section_select_grade_name"=>"select grade",  
+  "add_section_error"=>"this section already exists",   
+  "Status_Section_AC"=>"active", 
+  "Status_Section_No"=>"not active",
+  "edit_Section"=>"edit section",
+  "Status"=>"status",
+  "delete_Section"=>"delete section", 
+  "Warning_Section"=>"are you sure you want to delete this section", 
+  "Name_Teacher"=>"teacher name", 
+];           
